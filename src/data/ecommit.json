@@ -1,0 +1,316 @@
+{
+  "ecommit": [
+    {
+      "id": 1,
+      "emoji": "🎉",
+      "name": "tada",
+      "code": ":tada:",
+      "unicode": "&#x1F389;",
+      "description": "Nuevo proyecto."
+    },
+    {
+      "id": 2,
+      "emoji": "🐛",
+      "name": "bug",
+      "code": ":bug:",
+      "unicode": "&#x1F41B;",
+      "description": "Bug solucionado."
+    },
+    {
+      "id": 3,
+      "emoji": "🆕",
+      "name": "new",
+      "code": ":new:",
+      "unicode": "&#x1F195;",
+      "description": "Introducir nuevas funcionalidades."
+    },
+    {
+      "id": 4,
+      "emoji": "🔥",
+      "name": "fire",
+      "code": ":fire:",
+      "unicode": "&#x1F525;",
+      "description": "Eliminación de código o archivos."
+    },
+    {
+      "id": 5,
+      "emoji": "📝",
+      "name": "memo",
+      "code": ":memo:",
+      "unicode": "&#x1F4dd;",
+      "description": "Añadir o actualizar un documento."
+    },
+    {
+      "id": 6,
+      "emoji": "✅",
+      "name": "white_check_markw",
+      "code": ":white_check_mark:",
+      "unicode": "&#x1F195;",
+      "description": "Prueba superada."
+    },
+    {
+      "id": 7,
+      "emoji": "🔒️",
+      "name": "lock",
+      "code": ":lock:",
+      "unicode": "&#x1F512;",
+      "description": "Corrección de seguridad."
+    },
+    {
+      "id": 8,
+      "emoji": "🔖",
+      "name": "bookmark",
+      "code": ":bookmark:",
+      "unicode": "&#x1F516;",
+      "description": "Lanzamiento / Etiqueda de versión."
+    },
+    {
+      "id": 9,
+      "emoji": "🚧",
+      "name": "construction",
+      "code": ":construction:",
+      "unicode": "&#x1F6a7;",
+      "description": "Trabajo en proceso."
+    },
+    {
+      "id": 10,
+      "emoji": "➕",
+      "name": "heavy_plus_sign",
+      "code": ":heavy_plus_sign:",
+      "unicode": "&#x2795;",
+      "description": "Añadir nueva dependecia."
+    },
+    {
+      "id": 11,
+      "emoji": "➖",
+      "name": "heavy_minus_sign",
+      "code": ":heavy_minus_sign:",
+      "unicode": "&#x2796;",
+      "description": "Eliminar dependecia."
+    },
+    {
+      "id": 12,
+      "emoji": "🔧",
+      "name": "wrench",
+      "code": ":wrench:",
+      "unicode": "&#x1f527;",
+      "description": "Añadir o actualizar un archivo de configuración."
+    },
+    {
+      "id": 14,
+      "emoji": "✏️",
+      "name": "pencil2",
+      "code": ":pencil2:",
+      "unicode": "&#59161;",
+      "description": "Corregir errores tipográficos."
+    },
+    {
+      "id": 15,
+      "emoji": "🔀",
+      "name": "twisted_rightwards_arrows",
+      "code": ":twisted_rightwards_arrows:",
+      "unicode": "&#x1F500;",
+      "description": "Fusión de ramas."
+    },
+    {
+      "id": 16,
+      "emoji": "🗑️",
+      "name": "wastebasket",
+      "code": ":wastebasket:",
+      "unicode": "&#x1F5D1;",
+      "description": "Código o archivo obsoleto para eliminar."
+    },
+    {
+      "id": 17,
+      "emoji": "⚡",
+      "name": "zap",
+      "code": ":zap:",
+      "unicode": "&#x26A1;",
+      "description": "Mejora de rendimiento."
+    },
+    {
+      "id": 18,
+      "emoji": "🎨",
+      "name": "art",
+      "code": ":art:",
+      "unicode": "&#x1F3a8;",
+      "description": "Mejora de código / Formato de código."
+    },
+    {
+      "id": 19,
+      "emoji": "🚑️",
+      "name": "ambulance",
+      "code": ":ambulance:",
+      "unicode": "&#x1F691;",
+      "description": "Correción importante."
+    },
+    {
+      "id": 20,
+      "emoji": "💄",
+      "name": "lipstick",
+      "code": ":lipstick:",
+      "unicode": "&#x1F484;",
+      "description": "Actualización de intefaz de usuarios o archivos de estilos."
+    },
+    {
+      "id": 21,
+      "emoji": "⬆️",
+      "name": "arrow_up",
+      "code": ":arrow_up:",
+      "unicode": "&#x2B06;",
+      "description": "Actualizar dependencias."
+    },
+    {
+      "id": 22,
+      "emoji": "⬇️",
+      "name": "arrow_down",
+      "code": ":arrow_down:",
+      "unicode": "&#x2B07;",
+      "description": "Desactualizar dependencias."
+    },
+    {
+      "id": 23,
+      "emoji": "⏪️",
+      "name": "rewind",
+      "code": ":rewind:",
+      "unicode": "&#x23EA;",
+      "description": "Revertir cambios."
+    },
+    {
+      "id": 24,
+      "emoji": "🚚",
+      "name": "rewind",
+      "code": ":rewind:",
+      "unicode": "&#x1F69A;",
+      "description": "Mover o cambiar nombre."
+    },
+    {
+      "id": 25,
+      "emoji": "🚨",
+      "name": "rotating_light",
+      "code": ":rotating_light:",
+      "unicode": "&#x1F6A8;",
+      "description": "Solucionar alertas de código."
+    },
+    {
+      "id": 26,
+      "emoji": "💡",
+      "name": "bulb",
+      "code": ":bulb:",
+      "unicode": "&#x1F4A1;",
+      "description": "Agregar o actualizar comentarios en el código."
+    },
+    {
+      "id": 27,
+      "emoji": "💬",
+      "name": "speech_balloon",
+      "code": ":speech_balloon:",
+      "unicode": "&#x1F4AC;",
+      "description": "Agregar o actualizar README."
+    },
+    {
+      "id": 28,
+      "emoji": "📂",
+      "name": "open_file_folder",
+      "code": ":open_file_folder:",
+      "unicode": "&#x1F4C2;",
+      "description": "Cambios relacionados con la Base de Datos."
+    },
+    {
+      "id": 29,
+      "emoji": "👥",
+      "name": "busts_in_silhouette",
+      "code": ":busts_in_silhouette:",
+      "unicode": "&#x1F465;",
+      "description": "Añadir o actualizar contribuidor(es)."
+    },
+    {
+      "id": 30,
+      "emoji": "📱",
+      "name": "iphone",
+      "code": ":iphone:",
+      "unicode": "&#x1F4F1;",
+      "description": "Trabajar en el diseño responsivo."
+    },
+    {
+      "id": 31,
+      "emoji": "🔍️",
+      "name": "mag",
+      "code": ":mag:",
+      "unicode": "&#x1F50D;",
+      "description": "Añadir o actualizar el archivo .gitignore."
+    },
+    {
+      "id": 32,
+      "emoji": "📍",
+      "name": "round_pushpin",
+      "code": ":round_pushpin:",
+      "unicode": "&#x1F4CD;",
+      "description": "Vincular las dependencias a versiones específicas."
+    },
+    {
+      "id": 33,
+      "emoji": "📦️",
+      "name": "package",
+      "code": ":package:",
+      "unicode": "&#x1F4E6;",
+      "description": "Añadir o actualizar archivos o paquetes compilados."
+    },
+    {
+      "id": 34,
+      "emoji": "👽️",
+      "name": "alien",
+      "code": ":alien:",
+      "unicode": "&#1F47D;",
+      "description": "Actualiza el código correspondiente a una API externa."
+    },
+    {
+      "id": 35,
+      "emoji": "📑",
+      "name": "bookmark_tabs",
+      "code": ":bookmark_tabs:",
+      "unicode": "&#x1F4D1;",
+      "description": "Añade o actualiza la licencia."
+    },
+    {
+      "id": 36,
+      "emoji": "🔨",
+      "name": "hammer",
+      "code": ":hammer:",
+      "unicode": "&#x1F528;",
+      "description": "Refactorización de código."
+    },
+    {
+      "id": 37,
+      "emoji": "🔇",
+      "name": "mute",
+      "code": ":mute:",
+      "unicode": "&#x1F507;",
+      "description": "Eliminación de logs."
+    },
+    {
+      "id": 38,
+      "emoji": "🔊",
+      "name": "loud_sound",
+      "code": ":loud_sound:",
+      "unicode": "&#x1F50A;",
+      "description": "Agregar o actualizar logs."
+    },
+    {
+      "id": 39,
+      "emoji": "🚀",
+      "name": "rocket",
+      "code": ":rocket:",
+      "unicode": "&#x1F680;",
+      "description": "Implentación de código."
+    },
+    {
+      "id": 40,
+      "emoji": "👷",
+      "name": "construction_worker",
+      "code": ":construction_worker:",
+      "unicode": "&#x1F477;",
+      "description": "Agregar sistema de compilación de CI."
+    }
+  ]
+}
