@@ -4,9 +4,9 @@
 
 # :wave: Welcome to Ecommit
 
-[![License badge](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square)](https://github.com/matcastaneda/Ecommit/blob/main/LICENSE) [![React badge](https://img.shields.io/badge/React-17%2E0%2E2-blue.svg?style=flat-square&logo=react&logoColor=%2361DAFB)](https://github.com/facebook/react/blob/main/CHANGELOG.md#1702-march-22-2021) [![Estilo Código: prettier](https://img.shields.io/badge/Style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![Status badge](https://img.shields.io/badge/Status-In%20progress-yellow.svg?style=flat-square)
+[![License badge](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square)](https://github.com/matcastaneda/ecommit/blob/main/LICENSE) [![React badge](https://img.shields.io/badge/React-17%2E0%2E2-blue.svg?style=flat-square&logo=react&logoColor=%2361DAFB)](https://github.com/facebook/react/blob/main/CHANGELOG.md#1702-march-22-2021) [![Estilo Código: prettier](https://img.shields.io/badge/Style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![Status badge](https://img.shields.io/badge/Status-In%20progress-yellow.svg?style=flat-square)
 
-> :open_file_folder: This repository contains the source code of **_[Ecommit](https://github.com/matcastaneda/Ecommit)_**. :open_file_folder:
+> :open_file_folder: This repository contains the source code of **_[Ecommit](https://github.com/matcastaneda/ecommit)_**. :open_file_folder:
 
 Customize your `git commit` with representative emojis when using Git.
 
