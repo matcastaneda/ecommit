@@ -28,29 +28,28 @@ function EmojiCard({ emoji, code, description }) {
   };
 
   return (
-    <>
-      <figure className="flex items-center overflow-hidden text- rounded-lg shadow-lg max-w-sm h-24 p-5">
+    <figure className="emoji-card">
+      <header className="select-none bg-cyan-300 rounded-t-lg py-6">
         <CopyToClipboard text={emoji}>
           <span
             onClick={onClickEmoji}
-            className="cursor-pointer text-4xl select-none">
+            className="cursor-pointer text-6xl font-sans">
             {emoji}
           </span>
         </CopyToClipboard>
+      </header>
 
-        <div className="pl-2">
+      <div className="emoji-card-text py-6">
+        <div className="select-none cursor-pointer pb-2">
           <CopyToClipboard text={code}>
-            <span
-              onClick={onClickCode}
-              className="cursor-pointer bg-slate-200 px-2 py-1 rounded select-none">
+            <p onClick={onClickCode} className="text-xl font-bold px-4">
               {code}
-            </span>
+            </p>
           </CopyToClipboard>
-
-          <p>{description}</p>
         </div>
-      </figure>
-    </>
+        <p className="px-4 text-clip">{description}</p>
+      </div>
+    </figure>
   );
 }
 

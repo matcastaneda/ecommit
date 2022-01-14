@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  body {
+    @apply font-josefin
+  }
+
+  .emoji-card {
+    @apply bg-white shadow-lg rounded-lg text-center max-w-full;
+  }
+
+  .emoji-card-text {
+    @apply flex flex-col items-center text-center break-all md:break-words;
+  }
+}

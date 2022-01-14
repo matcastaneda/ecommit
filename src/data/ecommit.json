@@ -170,11 +170,11 @@
     },
     {
       "id": 23,
-      "emoji": "⏪️",
-      "name": "rewind",
-      "code": ":rewind:",
-      "unicode": "&#x23EA;",
-      "description": "Revertir cambios."
+      "emoji": "📂",
+      "name": "open_file_folder",
+      "code": ":open_file_folder:",
+      "unicode": "&#x1F4C2;",
+      "description": "Cambios relacionados con la Base de Datos."
     },
     {
       "id": 24,
@@ -210,11 +210,11 @@
     },
     {
       "id": 28,
-      "emoji": "📂",
-      "name": "open_file_folder",
-      "code": ":open_file_folder:",
-      "unicode": "&#x1F4C2;",
-      "description": "Cambios relacionados con la Base de Datos."
+      "emoji": "⏪️",
+      "name": "rewind",
+      "code": ":rewind:",
+      "unicode": "&#x23EA;",
+      "description": "Revertir cambios."
     },
     {
       "id": 29,
