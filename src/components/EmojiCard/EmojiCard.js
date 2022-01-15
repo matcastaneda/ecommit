@@ -4,13 +4,14 @@ import { toast } from 'react-hot-toast';
 
 /**
   ** Extraidos de EmojiList.js
-   @param emoji
-   @param code
-   @param description 
+  @param id
+  @param emoji
+  @param code
+  @param description 
 
   * TODO: Creación de componente para renderizar los emojis.
 */
-function EmojiCard({ emoji, code, description }) {
+function EmojiCard({ id, emoji, code, description, color }) {
   const styleToast = 'bg-blue-500 text-white font-regular';
 
   const onClickEmoji = () => {
@@ -27,9 +28,19 @@ function EmojiCard({ emoji, code, description }) {
     });
   };
 
+  const a = color;
+  console.log(a);
+
   return (
-    <figure className="emoji-card">
-      <header className="select-none bg-cyan-300 rounded-t-lg py-6">
+    <figure className="emoji-card relative">
+      <span
+        className="emoji-card-id absolute"
+        style={{ background: `${color}` }}>
+        {id}
+      </span>
+      <header
+        className="select-none rounded-t-lg py-7"
+        style={{ background: `${color}` }}>
         <CopyToClipboard text={emoji}>
           <span
             onClick={onClickEmoji}
@@ -39,17 +50,17 @@ function EmojiCard({ emoji, code, description }) {
         </CopyToClipboard>
       </header>
 
-      <div className="emoji-card-text py-6">
+      <div className="emoji-card-text py-6" style={{ color: `${color}` }}>
         <div className="select-none cursor-pointer pb-2">
           <CopyToClipboard text={code}>
             <p
               onClick={onClickCode}
-              className="text-xl font-bold px-4 break-all md:break-words">
+              className="text-xl font-bold px-3 break-all md:break-words">
               {code}
             </p>
           </CopyToClipboard>
         </div>
-        <p className="px-4 text-clip break-words">{description}</p>
+        <p className="px-4 break-words">{description}</p>
       </div>
     </figure>
   );

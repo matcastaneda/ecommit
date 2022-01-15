@@ -14,6 +14,7 @@ function EmojiList() {
       {emojis.map(emoji => (
         <EmojiCard
           key={emoji.id}
+          id={emoji.id}
           emoji={emoji.emoji}
           code={emoji.code}
           description={emoji.description}
