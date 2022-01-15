@@ -10,7 +10,7 @@
 
 Personaliza tu `git commit` con emojis representativos al momento de usar Git.
 
-- :pushpin: Cuenta con 40 _Emojis_ para personalizar tu `commit`.
+- :pushpin: Cuenta con 39 _Emojis_ para personalizar tu `commit`.
 - :pushpin: Puedes copiar el _Emoji_ como también su _Tag_. :paperclip: **_Emoji(❤️) :heavy_minus_sign: Tag(`:heart:`)_**.
 - :pushpin: Resalta el trabajo realizado.
 - :pushpin: Realiza una busqueda rápida de tu `commit` viendo solo el _Emoji_ que lo representa.

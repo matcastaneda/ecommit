@@ -119,12 +119,12 @@
     },
     {
       "id": 15,
-      "emoji": "🔀",
-      "name": "twisted_rightwards_arrows",
-      "code": ":twisted_rightwards_arrows:",
-      "unicode": "&#x1F500;",
-      "description": "Fusión de ramas.",
-      "color": "#C5E763"
+      "emoji": "👷",
+      "name": "construction_worker",
+      "code": ":construction_worker:",
+      "unicode": "&#x1F477;",
+      "description": "Agregar sistema de compilación de CI.",
+      "color": "#83BEEC"
     },
     {
       "id": 16,
@@ -341,15 +341,6 @@
       "unicode": "&#x1F680;",
       "description": "Implentación de código.",
       "color": "#8BDFE7"
-    },
-    {
-      "id": 40,
-      "emoji": "👷",
-      "name": "construction_worker",
-      "code": ":construction_worker:",
-      "unicode": "&#x1F477;",
-      "description": "Agregar sistema de compilación de CI.",
-      "color": "#83BEEC"
     }
   ]
 }
