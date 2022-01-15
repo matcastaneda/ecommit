@@ -3,13 +3,21 @@ import { Toaster } from 'react-hot-toast';
 
 // * Import Component
 import EmojiList from '../components/EmojiList/EmojiList';
+import banner from '../assets/images/ecommit-banner.png';
+import Footer from '../components/Footer/Footer';
 
 const HomePage = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto grid content-center grid-cols-2 xs:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 ">
+      <main className="container-ecommit main">
         <EmojiList />
-      </div>
+      </main>
+
+      <Footer
+        autor={'Matías Castañeda'}
+        usuario={'matcastaneda'}
+        proyecto={'ecommit'}
+      />
 
       <Toaster position="top-center" />
     </>
