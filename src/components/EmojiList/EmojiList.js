@@ -18,6 +18,7 @@ function EmojiList() {
           emoji={emoji.emoji}
           code={emoji.code}
           description={emoji.description}
+          color={emoji.color}
         />
       ))}
     </>

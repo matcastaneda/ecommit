@@ -60,7 +60,7 @@ function EmojiCard({ id, emoji, code, description, color }) {
             </p>
           </CopyToClipboard>
         </div>
-        <p className="px-4 break-words">{description}</p>
+        <p className="px-4 break-words text-lg">{description}</p>
       </div>
     </figure>
   );
