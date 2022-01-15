@@ -28,13 +28,10 @@ function EmojiCard({ id, emoji, code, description, color }) {
     });
   };
 
-  const a = color;
-  console.log(a);
-
   return (
     <figure className="emoji-card relative">
       <span
-        className="emoji-card-id absolute"
+        className="emoji-card-id absolute select-none"
         style={{ background: `${color}` }}>
         {id}
       </span>
@@ -50,14 +47,14 @@ function EmojiCard({ id, emoji, code, description, color }) {
         </CopyToClipboard>
       </header>
 
-      <div className="emoji-card-text py-6" style={{ color: `${color}` }}>
-        <div className="select-none cursor-pointer pb-2">
+      <div className="emoji-card-text py-6">
+        <div className="select-none cursor-pointer mb-3 py-1 rounded-2xl bg-sky-100">
           <CopyToClipboard text={code}>
-            <p
+            <h1
               onClick={onClickCode}
               className="text-xl font-bold px-3 break-all md:break-words">
               {code}
-            </p>
+            </h1>
           </CopyToClipboard>
         </div>
         <p className="px-4 break-words text-lg">{description}</p>
