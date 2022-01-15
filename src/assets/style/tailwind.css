@@ -4,7 +4,7 @@
 
 @layer components {
   body {
-    @apply font-josefin
+    @apply font-josefin;
   }
 
   .emoji-card {
@@ -12,6 +12,6 @@
   }
 
   .emoji-card-text {
-    @apply flex flex-col items-center text-center break-all md:break-words;
+    @apply flex flex-col items-center text-center;
   }
 }

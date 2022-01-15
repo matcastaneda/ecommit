@@ -42,12 +42,14 @@ function EmojiCard({ emoji, code, description }) {
       <div className="emoji-card-text py-6">
         <div className="select-none cursor-pointer pb-2">
           <CopyToClipboard text={code}>
-            <p onClick={onClickCode} className="text-xl font-bold px-4">
+            <p
+              onClick={onClickCode}
+              className="text-xl font-bold px-4 break-all md:break-words">
               {code}
             </p>
           </CopyToClipboard>
         </div>
-        <p className="px-4 text-clip">{description}</p>
+        <p className="px-4 text-clip break-words">{description}</p>
       </div>
     </figure>
   );
