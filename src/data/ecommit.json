@@ -6,7 +6,8 @@
       "name": "tada",
       "code": ":tada:",
       "unicode": "&#x1F389;",
-      "description": "Nuevo proyecto."
+      "description": "Nuevo proyecto.",
+      "color": "#CEDAE6"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "name": "bug",
       "code": ":bug:",
       "unicode": "&#x1F41B;",
-      "description": "Bug solucionado."
+      "description": "Bug solucionado.",
+      "color": "#EF5350"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "name": "new",
       "code": ":new:",
       "unicode": "&#x1F195;",
-      "description": "Introducir nuevas funcionalidades."
+      "description": "Introducir nuevas funcionalidades.",
+      "color": "#77E856"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "name": "fire",
       "code": ":fire:",
       "unicode": "&#x1F525;",
-      "description": "Eliminación de código o archivos."
+      "description": "Eliminación de código o archivos.",
+      "color": "#64B5F6"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "name": "memo",
       "code": ":memo:",
       "unicode": "&#x1F4dd;",
-      "description": "Añadir o actualizar un documento."
+      "description": "Añadir o actualizar un documento.",
+      "color": "#00E676"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "name": "white_check_markw",
       "code": ":white_check_mark:",
       "unicode": "&#x1F195;",
-      "description": "Prueba superada."
+      "description": "Prueba superada.",
+      "color": "#39C2F1"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "name": "lock",
       "code": ":lock:",
       "unicode": "&#x1F512;",
-      "description": "Corrección de seguridad."
+      "description": "Corrección de seguridad.",
+      "color": "#80DEEA"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "name": "bookmark",
       "code": ":bookmark:",
       "unicode": "&#x1F516;",
-      "description": "Lanzamiento / Etiqueda de versión."
+      "description": "Lanzamiento / Etiqueda de versión.",
+      "color": "#FF7281"
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "name": "construction",
       "code": ":construction:",
       "unicode": "&#x1F6a7;",
-      "description": "Trabajo en proceso."
+      "description": "Trabajo en proceso.",
+      "color": "#40C4FF"
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "name": "heavy_plus_sign",
       "code": ":heavy_plus_sign:",
       "unicode": "&#x2795;",
-      "description": "Añadir nueva dependecia."
+      "description": "Añadir nueva dependecia.",
+      "color": "#FF9D44"
     },
     {
       "id": 11,
@@ -86,7 +96,8 @@
       "name": "heavy_minus_sign",
       "code": ":heavy_minus_sign:",
       "unicode": "&#x2796;",
-      "description": "Eliminar dependecia."
+      "description": "Eliminar dependecia.",
+      "color": "#8CD842"
     },
     {
       "id": 12,
@@ -94,7 +105,8 @@
       "name": "wrench",
       "code": ":wrench:",
       "unicode": "&#x1f527;",
-      "description": "Añadir o actualizar un archivo de configuración."
+      "description": "Añadir o actualizar un archivo de configuración.",
+      "color": "#FFE55F"
     },
     {
       "id": 14,
@@ -102,7 +114,8 @@
       "name": "pencil2",
       "code": ":pencil2:",
       "unicode": "&#59161;",
-      "description": "Corregir errores tipográficos."
+      "description": "Corregir errores tipográficos.",
+      "color": "#536DFE"
     },
     {
       "id": 15,
@@ -110,7 +123,8 @@
       "name": "twisted_rightwards_arrows",
       "code": ":twisted_rightwards_arrows:",
       "unicode": "&#x1F500;",
-      "description": "Fusión de ramas."
+      "description": "Fusión de ramas.",
+      "color": "#C5E763"
     },
     {
       "id": 16,
@@ -118,7 +132,8 @@
       "name": "wastebasket",
       "code": ":wastebasket:",
       "unicode": "&#x1F5D1;",
-      "description": "Código o archivo obsoleto para eliminar."
+      "description": "Código o archivo obsoleto para eliminar.",
+      "color": "#FDD0AE"
     },
     {
       "id": 17,
@@ -126,7 +141,8 @@
       "name": "zap",
       "code": ":zap:",
       "unicode": "&#x26A1;",
-      "description": "Mejora de rendimiento."
+      "description": "Mejora de rendimiento.",
+      "color": "#C7CB12"
     },
     {
       "id": 18,
@@ -134,7 +150,8 @@
       "name": "art",
       "code": ":art:",
       "unicode": "&#x1F3a8;",
-      "description": "Mejora de código / Formato de código."
+      "description": "Mejora de código / Formato de código.",
+      "color": "#FFE55F"
     },
     {
       "id": 19,
@@ -142,7 +159,8 @@
       "name": "ambulance",
       "code": ":ambulance:",
       "unicode": "&#x1F691;",
-      "description": "Correción importante."
+      "description": "Correción importante.",
+      "color": "#86B837"
     },
     {
       "id": 20,
@@ -150,7 +168,8 @@
       "name": "lipstick",
       "code": ":lipstick:",
       "unicode": "&#x1F484;",
-      "description": "Actualización de intefaz de usuarios o archivos de estilos."
+      "description": "Actualización de intefaz de usuarios o archivos de estilos.",
+      "color": "#83BEEC"
     },
     {
       "id": 21,
@@ -158,7 +177,8 @@
       "name": "arrow_up",
       "code": ":arrow_up:",
       "unicode": "&#x2B06;",
-      "description": "Actualizar dependencias."
+      "description": "Actualizar dependencias.",
+      "color": "#FBCFB7"
     },
     {
       "id": 22,
@@ -166,7 +186,8 @@
       "name": "arrow_down",
       "code": ":arrow_down:",
       "unicode": "&#x2B07;",
-      "description": "Desactualizar dependencias."
+      "description": "Desactualizar dependencias.",
+      "color": "#FFCE49"
     },
     {
       "id": 23,
@@ -174,7 +195,8 @@
       "name": "open_file_folder",
       "code": ":open_file_folder:",
       "unicode": "&#x1F4C2;",
-      "description": "Cambios relacionados con la Base de Datos."
+      "description": "Cambios relacionados con la Base de Datos.",
+      "color": "#FFDB3A"
     },
     {
       "id": 24,
@@ -182,7 +204,8 @@
       "name": "rewind",
       "code": ":rewind:",
       "unicode": "&#x1F69A;",
-      "description": "Mover o cambiar nombre."
+      "description": "Mover o cambiar nombre.",
+      "color": "#FBB64B"
     },
     {
       "id": 25,
@@ -190,7 +213,8 @@
       "name": "rotating_light",
       "code": ":rotating_light:",
       "unicode": "&#x1F6A8;",
-      "description": "Solucionar alertas de código."
+      "description": "Solucionar alertas de código.",
+      "color": "#FFE55F"
     },
     {
       "id": 26,
@@ -198,7 +222,8 @@
       "name": "bulb",
       "code": ":bulb:",
       "unicode": "&#x1F4A1;",
-      "description": "Agregar o actualizar comentarios en el código."
+      "description": "Agregar o actualizar comentarios en el código.",
+      "color": "#FF9D44"
     },
     {
       "id": 27,
@@ -206,7 +231,8 @@
       "name": "speech_balloon",
       "code": ":speech_balloon:",
       "unicode": "&#x1F4AC;",
-      "description": "Agregar o actualizar README."
+      "description": "Agregar o actualizar README.",
+      "color": "#C5E763"
     },
     {
       "id": 28,
@@ -214,7 +240,8 @@
       "name": "rewind",
       "code": ":rewind:",
       "unicode": "&#x23EA;",
-      "description": "Revertir cambios."
+      "description": "Revertir cambios.",
+      "color": "#FBCFB7"
     },
     {
       "id": 29,
@@ -222,7 +249,8 @@
       "name": "busts_in_silhouette",
       "code": ":busts_in_silhouette:",
       "unicode": "&#x1F465;",
-      "description": "Añadir o actualizar contribuidor(es)."
+      "description": "Añadir o actualizar contribuidor(es).",
+      "color": "#23B4D2"
     },
     {
       "id": 30,
@@ -230,7 +258,8 @@
       "name": "iphone",
       "code": ":iphone:",
       "unicode": "&#x1F4F1;",
-      "description": "Trabajar en el diseño responsivo."
+      "description": "Trabajar en el diseño responsivo.",
+      "color": "#FF5864"
     },
     {
       "id": 31,
@@ -238,7 +267,8 @@
       "name": "mag",
       "code": ":mag:",
       "unicode": "&#x1F50D;",
-      "description": "Añadir o actualizar el archivo .gitignore."
+      "description": "Añadir o actualizar el archivo .gitignore.",
+      "color": "#F94F28"
     },
     {
       "id": 32,
@@ -246,7 +276,8 @@
       "name": "round_pushpin",
       "code": ":round_pushpin:",
       "unicode": "&#x1F4CD;",
-      "description": "Vincular las dependencias a versiones específicas."
+      "description": "Vincular las dependencias a versiones específicas.",
+      "color": "#00E676"
     },
     {
       "id": 33,
@@ -254,7 +285,8 @@
       "name": "package",
       "code": ":package:",
       "unicode": "&#x1F4E6;",
-      "description": "Añadir o actualizar archivos o paquetes compilados."
+      "description": "Añadir o actualizar archivos o paquetes compilados.",
+      "color": "#80DEEA"
     },
     {
       "id": 34,
@@ -262,7 +294,8 @@
       "name": "alien",
       "code": ":alien:",
       "unicode": "&#1F47D;",
-      "description": "Actualiza el código correspondiente a una API externa."
+      "description": "Actualiza el código correspondiente a una API externa.",
+      "color": "#FF7281"
     },
     {
       "id": 35,
@@ -270,7 +303,8 @@
       "name": "bookmark_tabs",
       "code": ":bookmark_tabs:",
       "unicode": "&#x1F4D1;",
-      "description": "Añade o actualiza la licencia."
+      "description": "Añade o actualiza la licencia.",
+      "color": "#FFCE49"
     },
     {
       "id": 36,
@@ -278,7 +312,8 @@
       "name": "hammer",
       "code": ":hammer:",
       "unicode": "&#x1F528;",
-      "description": "Refactorización de código."
+      "description": "Refactorización de código.",
+      "color": "#23B4D2"
     },
     {
       "id": 37,
@@ -286,7 +321,8 @@
       "name": "mute",
       "code": ":mute:",
       "unicode": "&#x1F507;",
-      "description": "Eliminación de logs."
+      "description": "Eliminación de logs.",
+      "color": "#FFB74D"
     },
     {
       "id": 38,
@@ -294,7 +330,8 @@
       "name": "loud_sound",
       "code": ":loud_sound:",
       "unicode": "&#x1F50A;",
-      "description": "Agregar o actualizar logs."
+      "description": "Agregar o actualizar logs.",
+      "color": "#40C4FF"
     },
     {
       "id": 39,
@@ -302,7 +339,8 @@
       "name": "rocket",
       "code": ":rocket:",
       "unicode": "&#x1F680;",
-      "description": "Implentación de código."
+      "description": "Implentación de código.",
+      "color": "#8BDFE7"
     },
     {
       "id": 40,
@@ -310,7 +348,8 @@
       "name": "construction_worker",
       "code": ":construction_worker:",
       "unicode": "&#x1F477;",
-      "description": "Agregar sistema de compilación de CI."
+      "description": "Agregar sistema de compilación de CI.",
+      "color": "#83BEEC"
     }
   ]
 }
