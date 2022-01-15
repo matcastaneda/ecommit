@@ -11,7 +11,7 @@ const HomePage = () => {
         <EmojiList />
       </div>
 
-      <Toaster position="top-right" />
+      <Toaster position="top-center" />
     </>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { toast } from 'react-hot-toast';
+import { ToastTag, ToastEmoji } from '../Toast/ToastCopy';
 
 /**
   ** Extraidos de EmojiList.js
@@ -8,24 +9,18 @@ import { toast } from 'react-hot-toast';
   @param emoji
   @param code
   @param description 
+  @param color
 
   * TODO: Creación de componente para renderizar los emojis.
 */
 function EmojiCard({ id, emoji, code, description, color }) {
-  const styleToast = 'bg-blue-500 text-white font-regular';
-
+  // * Creación de evento onClick para copiar el Emoji o Tag.
   const onClickEmoji = () => {
-    return toast.success(`${emoji} ► Copiado!`, {
-      duration: 2500,
-      className: styleToast,
-    });
+    return toast.success(<ToastEmoji emoji={emoji} />, { duration: 2000 });
   };
 
   const onClickCode = () => {
-    return toast.success(`${code} ► Copiado!`, {
-      duration: 2500,
-      className: styleToast,
-    });
+    return toast.success(<ToastTag tag={code} />, { duration: 2000 });
   };
 
   return (
