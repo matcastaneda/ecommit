@@ -11,8 +11,10 @@ const HomePage = () => {
 
   return (
     <>
+      {/* Banner */}
       <Header />
 
+      {/* Componente para buscar emojis */}
       <div className="container-ecommit flex justify-center items-center px-10 mt-10">
         <div className="relative flex items-center w-full md:w-5/6">
           <input
@@ -40,6 +42,7 @@ const HomePage = () => {
         </div>
       </div>
 
+      {/* Emojis */}
       <main className="container-ecommit main">
         <EmojiList search={search} />
       </main>
