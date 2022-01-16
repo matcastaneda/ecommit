@@ -13,13 +13,31 @@ const HomePage = () => {
     <>
       <Header />
 
-      <div className="container-ecommit flex justify-center items-center px-10">
-        <input
-          type="text"
-          placeholder="Busca tu Emoji"
-          className="placeholder:italic placeholder:text-slate-400 block w-full md:w-7/12 bg-white border border-slate-300 rounded-md py-3 px-5 mt-10 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
-          onChange={e => setSearch(e.target.value)}
-        />
+      <div className="container-ecommit flex justify-center items-center px-10 mt-10">
+        <div className="relative flex items-center w-full md:w-5/6">
+          <input
+            type="text"
+            id="search"
+            placeholder="Encuentra tu Emoji . . ."
+            className="placeholder:italic text-gray-500 placeholder:text-gray-400 block w-full bg-white border rounded-md py-3 px-5 pr-11 pt-4 shadow-sm focus:outline-none focus:border-gray-500 text-lg"
+            onChange={e => setSearch(e.target.value)}
+          />
+          <label className="absolute right-5 text-gray-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="text-gray-500 h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </label>
+        </div>
       </div>
 
       <main className="container-ecommit main">
