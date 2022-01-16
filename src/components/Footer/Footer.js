@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = ({ autor, usuario, proyecto }) => {
   return (
-    <div className="bg-sky-100 text-base md:text-lg">
+    <div className="bg-sky-100 text-base md:text-lg ">
       <div className="container-ecommit flex flex-col md:flex-row md:px-6 items-center justify-between py-10 break-words">
         <div className="mb-5 md:mb-0">
           Creado con ❤️ por{' '}

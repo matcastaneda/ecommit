@@ -1,33 +1,29 @@
-import React from 'react';
+import { React, useState } from 'react';
 import { Toaster } from 'react-hot-toast';
 
 // * Import Component
 import EmojiList from '../components/EmojiList/EmojiList';
 import Footer from '../components/Footer/Footer';
-
-import logo from '../assets/images/ecommit-logo.svg';
+import Header from '../components/Header/Header';
 
 const HomePage = () => {
+  const [search, setSearch] = useState('');
+
   return (
     <>
-      <header className="flex flex-col items-center bg-sky-100 py-32">
-        <div className="container-ecommit flex flex-row justify-center items-end mb-8">
-          <img src={logo} alt="logo-ecommit" className="w-24 md:w-32" />
-          <p className="text-7xl md:text-8xl" style={{ color: '#6A6969' }}>
-            commit
-          </p>
-        </div>
+      <Header />
 
-        <div className='p-2 text-center'>
-          <p>
-            Personaliza tus mensajes de confirmación (commit) al momento de usar
-            Git, por medio de emojis representativos.
-          </p>
-        </div>
-      </header>
+      <div className="container-ecommit flex justify-center items-center px-10">
+        <input
+          type="text"
+          placeholder="Busca tu Emoji"
+          className="placeholder:italic placeholder:text-slate-400 block w-full md:w-7/12 bg-white border border-slate-300 rounded-md py-3 px-5 mt-10 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
+          onChange={e => setSearch(e.target.value)}
+        />
+      </div>
 
       <main className="container-ecommit main">
-        <EmojiList />
+        <EmojiList search={search} />
       </main>
 
       <Footer
