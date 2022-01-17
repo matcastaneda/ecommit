@@ -6,7 +6,7 @@
 
 [![License badge](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square)](https://github.com/matcastaneda/ecommit/blob/main/LICENSE) [![React badge](https://img.shields.io/badge/React-17%2E0%2E2-blue.svg?style=flat-square&logo=react&logoColor=%2361DAFB)](https://github.com/facebook/react/blob/main/CHANGELOG.md#1702-march-22-2021) [![Estilo Código: Prettier](https://img.shields.io/badge/Style-Prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Framework CSS: prettier](https://img.shields.io/badge/CSS_Framework-Tailwind-06B6D4.svg?style=flat-square&logo=Tailwind%20CSS)](https://tailwindcss.com/) ![Status badge](https://img.shields.io/badge/Status-In%20progress-yellow.svg?style=flat-square)
 
-> :open\*file_folder: This repository contains the source code of \*\*\*[Ecommit](https://github.com/matcastaneda/ecommit)\_\*\*. :open_file_folder:
+> _:open_file_folder: This repository contains the source code of **[Ecommit](https://github.com/matcastaneda/ecommit)**. :open_file_folder:_
 
 Customize your `git commit` with representative emojis when using Git.
 
