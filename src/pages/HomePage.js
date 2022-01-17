@@ -1,12 +1,18 @@
-import { React, useState } from 'react';
+import { React, useState, useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
 
 // * Import Component
 import EmojiList from '../components/EmojiList/EmojiList';
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
+import { googleAnalyticsAction } from '../utils/GoogleAnalyticsInit';
 
 const HomePage = () => {
+  // **TODO: Conexión con Google Analytics
+  useEffect(() => {
+    googleAnalyticsAction.initGoogleAnalytics('G-V042MQCM5H');
+  }, []);
+
   const [search, setSearch] = useState('');
 
   return (
