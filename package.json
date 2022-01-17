@@ -9,6 +9,7 @@
     "type": "git",
     "directory": "https://github.com/matcastaneda/ecommit"
   },
+  "homepage": "https://matcastaneda.github.io/ecommit",
   "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -22,6 +23,8 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
