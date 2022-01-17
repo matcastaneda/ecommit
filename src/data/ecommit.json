@@ -69,7 +69,7 @@
       "name": "bookmark",
       "code": ":bookmark:",
       "unicode": "&#x1F516;",
-      "description": "Lanzamiento / Etiqueda de versión.",
+      "description": "Lanzamiento / Etiqueta de versión.",
       "color": "#FF7281"
     },
     {
@@ -87,7 +87,7 @@
       "name": "heavy_plus_sign",
       "code": ":heavy_plus_sign:",
       "unicode": "&#x2795;",
-      "description": "Añadir nueva dependecia.",
+      "description": "Añadir nueva dependencia.",
       "color": "#FF9D44"
     },
     {
@@ -96,7 +96,7 @@
       "name": "heavy_minus_sign",
       "code": ":heavy_minus_sign:",
       "unicode": "&#x2796;",
-      "description": "Eliminar dependecia.",
+      "description": "Eliminar dependencia.",
       "color": "#8CD842"
     },
     {
@@ -168,7 +168,7 @@
       "name": "lipstick",
       "code": ":lipstick:",
       "unicode": "&#x1F484;",
-      "description": "Actualización de intefaz de usuarios o archivos de estilos.",
+      "description": "Actualización de interfaz de usuarios o archivos de estilos.",
       "color": "#83BEEC"
     },
     {
@@ -294,7 +294,7 @@
       "name": "alien",
       "code": ":alien:",
       "unicode": "&#1F47D;",
-      "description": "Actualiza el código correspondiente a una API externa.",
+      "description": "Actualizar el código correspondiente a una API externa.",
       "color": "#FF7281"
     },
     {
