@@ -4,7 +4,7 @@
 
 # :wave: Bienvenidos a Ecommit
 
-[![License badge](https://img.shields.io/badge/Licencia-MIT-success.svg?style=flat-square)](https://github.com/matcastaneda/ecommit/blob/main/LICENSE) [![React badge](https://img.shields.io/badge/React-17%2E0%2E2-blue.svg?style=flat-square&logo=react&logoColor=%2361DAFB)](https://github.com/facebook/react/blob/main/CHANGELOG.md#1702-march-22-2021) [![Estilo Código: prettier](https://img.shields.io/badge/Estilo-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![Status badge](https://img.shields.io/badge/Estado-En%20progreso-yellow.svg?style=flat-square)
+[![License badge](https://img.shields.io/badge/Licencia-MIT-success.svg?style=flat-square)](https://github.com/matcastaneda/ecommit/blob/main/LICENSE) [![React badge](https://img.shields.io/badge/React-17%2E0%2E2-blue.svg?style=flat-square&logo=react&logoColor=%2361DAFB)](https://github.com/facebook/react/blob/main/CHANGELOG.md#1702-march-22-2021) [![Estilo Código: prettier](https://img.shields.io/badge/Estilo-Prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Framework CSS: prettier](https://img.shields.io/badge/CSS_Framework-Tailwind-06B6D4.svg?style=flat-square&logo=Tailwind%20CSS)](https://tailwindcss.com/) ![Status badge](https://img.shields.io/badge/Estado-En%20progreso-yellow.svg?style=flat-square)
 
 > _:open_file_folder: El siguiente repositorio contiene el código fuente de **[Ecommit](https://github.com/matcastaneda/ecommit)**. :open_file_folder:_
 
