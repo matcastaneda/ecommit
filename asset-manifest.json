@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ecommit/static/css/main.c88f2f72.css",
-    "main.js": "/ecommit/static/js/main.fe676c69.js",
+    "main.css": "/ecommit/static/css/main.0caa4e60.css",
+    "main.js": "/ecommit/static/js/main.92bd71db.js",
     "static/media/ecommit-logo.svg": "/ecommit/static/media/ecommit-logo.9539370b01f315fbc73b2380ce925655.svg",
     "index.html": "/ecommit/index.html",
-    "main.c88f2f72.css.map": "/ecommit/static/css/main.c88f2f72.css.map",
-    "main.fe676c69.js.map": "/ecommit/static/js/main.fe676c69.js.map"
+    "main.0caa4e60.css.map": "/ecommit/static/css/main.0caa4e60.css.map",
+    "main.92bd71db.js.map": "/ecommit/static/js/main.92bd71db.js.map"
   },
   "entrypoints": [
-    "static/css/main.c88f2f72.css",
-    "static/js/main.fe676c69.js"
+    "static/css/main.0caa4e60.css",
+    "static/js/main.92bd71db.js"
   ]
 }
