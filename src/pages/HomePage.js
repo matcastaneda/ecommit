@@ -47,11 +47,7 @@ const HomePage = () => {
         <EmojiList search={search} />
       </main>
 
-      <Footer
-        autor={'Matías Castañeda'}
-        usuario={'matcastaneda'}
-        proyecto={'ecommit'}
-      />
+      <Footer autor={'Matías Castañeda'} usuario={'matcastaneda'} />
 
       <Toaster position="top-center" />
     </>
