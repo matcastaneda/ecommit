@@ -11,9 +11,9 @@ function EmojiList({ search }) {
   const emojisFiltrados = emojis.filter(
     emojis =>
       emojis.name.toLowerCase().includes(search.toLowerCase()) |
-      emojis.description.toLowerCase().includes(search.toLowerCase()),
+      emojis.description.toLowerCase().includes(search.toLowerCase()) |
+      emojis.code.toLowerCase().includes(search.toLowerCase()),
   );
-
 
   return (
     // * Los datos se envian al Componente <EmojiCard />
