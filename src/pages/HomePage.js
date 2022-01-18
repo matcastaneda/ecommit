@@ -10,7 +10,7 @@ import { googleAnalyticsAction } from '../utils/GoogleAnalyticsInit';
 const HomePage = () => {
   // **TODO: Conexión con Google Analytics
   useEffect(() => {
-    googleAnalyticsAction.initGoogleAnalytics('G-V042MQCM5H');
+    googleAnalyticsAction.initGoogleAnalytics('UA-199392592-3');
   }, []);
 
   const [search, setSearch] = useState('');

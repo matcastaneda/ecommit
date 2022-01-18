@@ -3,9 +3,7 @@ import ReactGA from 'react-ga';
 const googleAnalyticsAction = {};
 
 googleAnalyticsAction.initGoogleAnalytics = async key => {
-  ReactGA.initialize(key, {
-    gaOptions: { cookieFlags: 'SameSite=None; Secure' },
-  });
+  ReactGA.initialize(key);
   ReactGA.pageview(window.location.pathname + window.location.search);
 };
 
