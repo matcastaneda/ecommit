@@ -26,7 +26,7 @@ export default function ScrollToTop() {
     isVisible && (
       <div
         onClick={scrollToTop}
-        className="animate-bounce p-2 flex items-center justify-center text-white fixed bottom-7 right-5 select-none rounded-full z-50 shadow-xl"
+        className="animate-bounce p-2 flex items-center justify-center text-white fixed bottom-7 right-5 select-none rounded-full z-50 shadow-xl cursor-pointer"
         style={{
           background: '#85F5B9',
         }}>
