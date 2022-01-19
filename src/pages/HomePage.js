@@ -9,6 +9,7 @@ import EmojiList from '../components/EmojiList/EmojiList';
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import { googleAnalyticsAction } from '../utils/GoogleAnalyticsInit';
+import ScrollToTop from '../components/ScrollTop/ScrollTop';
 
 const HomePage = () => {
   // * Conexión con Google Analytics
@@ -59,6 +60,7 @@ const HomePage = () => {
       <Footer />
 
       <Toaster position="top-center" />
+      <ScrollToTop />
     </>
   );
 };
