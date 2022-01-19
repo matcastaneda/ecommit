@@ -1,5 +1,8 @@
-import { React, useState, useEffect } from 'react';
+import { React, useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
+
+// * Import hooks personalizados
+import { useSearch } from '../hooks/useSearch';
 
 // * Import Component
 import EmojiList from '../components/EmojiList/EmojiList';
@@ -8,12 +11,13 @@ import Header from '../components/Header/Header';
 import { googleAnalyticsAction } from '../utils/GoogleAnalyticsInit';
 
 const HomePage = () => {
-  // **TODO: Conexión con Google Analytics
+  // * Conexión con Google Analytics
   useEffect(() => {
     googleAnalyticsAction.initGoogleAnalytics('UA-199392592-3');
   }, []);
 
-  const [search, setSearch] = useState('');
+  // * Importación de Hook useSearch() para buscar Emojis.
+  const { search, searchEmoji } = useSearch();
 
   return (
     <>
@@ -28,7 +32,7 @@ const HomePage = () => {
             id="search"
             placeholder="Encuentra tu Emoji . . ."
             className="placeholder:italic text-gray-500 placeholder:text-gray-400 block w-full bg-white border rounded-md py-3 px-5 pr-11 pt-4 shadow-sm focus:outline-none focus:border-gray-500 text-lg"
-            onChange={e => setSearch(e.target.value)}
+            onChange={e => searchEmoji(e)}
           />
           <label className="absolute right-5 text-gray-300">
             <svg
