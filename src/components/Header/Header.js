@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from '../../assets/images/ecommit-logo.svg';
+import logo from 'assets/images/ecommit-logo.svg';
 
 const Header = () => {
   return (

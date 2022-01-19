@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ToastTag = ({ tag }) => {
   return (
     <span className="toast-content xs:text-base">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Social = ({ url, background, logo, social }) => {
   return (
     <a href={url}>

@@ -1,8 +1,6 @@
-import React from 'react';
-
 // * Import Component & Data
-import EmojiCard from '../EmojiCard/EmojiCard';
-import data from '../../data/ecommit.json';
+import EmojiCard from 'components/EmojiCard/EmojiCard';
+import data from 'data/ecommit.json';
 
 // TODO: Recore el archivo JSON ecommit para obtener todos los datos de los emojis.
 function EmojiList({ search }) {

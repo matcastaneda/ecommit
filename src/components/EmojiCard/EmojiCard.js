@@ -1,7 +1,8 @@
-import React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { toast } from 'react-hot-toast';
-import { ToastTag, ToastEmoji } from '../Toast/ToastCopy';
+
+// * Import component
+import { ToastTag, ToastEmoji } from 'components/Toast/ToastCopy';
 
 /**
   ** Extraidos de EmojiList.js

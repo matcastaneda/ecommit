@@ -1,15 +1,17 @@
-import { React, useEffect } from 'react';
+import { useEffect } from 'react';
+
+// * Import mensaje Toaster
 import { Toaster } from 'react-hot-toast';
 
 // * Import hooks personalizados
-import { useSearch } from '../hooks/useSearch';
+import { useSearch } from 'hooks/useSearch';
 
 // * Import Component
-import EmojiList from '../components/EmojiList/EmojiList';
-import Footer from '../components/Footer/Footer';
-import Header from '../components/Header/Header';
-import { googleAnalyticsAction } from '../utils/GoogleAnalyticsInit';
-import ScrollToTop from '../components/ScrollTop/ScrollTop';
+import EmojiList from 'components/EmojiList/EmojiList';
+import Footer from 'components/Footer/Footer';
+import Header from 'components/Header/Header';
+import { googleAnalyticsAction } from 'utils/GoogleAnalyticsInit';
+import ScrollToTop from 'components/ScrollTop/ScrollTop';
 
 const HomePage = () => {
   // * Conexión con Google Analytics
