@@ -1,12 +1,13 @@
 import React from 'react';
 import Social from './Social';
 
-const Footer = ({ autor, usuario }) => {
+const Footer = () => {
   return (
     <div className="bg-sky-100 text-base md:text-lg ">
       <div className="container-ecommit flex flex-col md:flex-row md:px-6 items-center justify-between py-10 break-words">
         <div className="mb-5 md:mb-0">
-          Creado con ❤️ por <span className="relative italic font-bold">{autor}</span>
+          Creado con ❤️ por{' '}
+          <span className="relative italic font-bold">Matías Castañeda</span>
         </div>
 
         <div className="flex items-center">

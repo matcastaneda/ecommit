@@ -53,11 +53,10 @@ const HomePage = () => {
       </div>
 
       {/* Emojis */}
-      <main className="container-ecommit main">
-        <EmojiList search={search} />
-      </main>
 
-      <Footer autor={'Matías Castañeda'} usuario={'matcastaneda'} />
+      <EmojiList search={search} />
+
+      <Footer />
 
       <Toaster position="top-center" />
     </>
