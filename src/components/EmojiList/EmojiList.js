@@ -16,7 +16,7 @@ function EmojiList({ search }) {
   return (
     // * Los datos se envian al Componente <EmojiCard />
     <>
-      {emojisFiltrados.length > 1 ? (
+      {emojisFiltrados.length > 0 ? (
         <div className="container-ecommit main">
           {emojisFiltrados.map(emoji => (
             <EmojiCard
